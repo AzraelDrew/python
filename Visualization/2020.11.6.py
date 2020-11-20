@@ -10,8 +10,8 @@ from pyecharts import options as opts
 from pyecharts.globals import ThemeType
 from random import randrange
 data = ["哈士奇", "泰迪", "金毛", "牧羊犬", "柯基"]
-value = [54, 67, 98, 34, 56]
-value1 = [541, 671, 918, 134, 256]
+value = [54, 67, 68, 34, 56]
+value1 = [241, 671, 418, 334, 256]
 
 c = (
     Pie(init_opts=opts.InitOpts(height="90vh", width="90vw"))
