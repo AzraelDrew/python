@@ -27,8 +27,8 @@ c = (
     # 设置两组数据
     # stack将两组数据叠放在一起
     # category设置柱状图宽度(设置的百分比越大则越窄)
-    .add_yaxis("b", Faker.values(), stack="stack1", category_gap="40%", color="#2ecc71")
-    .add_yaxis("a", Faker.values(), stack="stack1", category_gap="40%", color="#3498db")
+    .add_yaxis("b", Faker.values(), stack="stack1", category_gap="60%", color="#2ecc71")
+    .add_yaxis("a", Faker.values(), stack="stack1", category_gap="60%", color="#3498db")
     # 设置标题
     .set_global_opts(title_opts=opts.TitleOpts(title="主标题", subtitle="副标题"),
                      # 将坐标轴标签旋转

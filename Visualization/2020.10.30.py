@@ -15,8 +15,8 @@ c = (
     # 设置两组数据
     # stack将两组数据叠放在一起
     # category设置柱状图宽度(设置的百分比越大则越窄)
-    .add_yaxis("iphone", [randrange(5499, 10899) for _ in range(6)], category_gap="60%", color="#9b59b6", gap="34%")
-    .add_yaxis("ipad", [randrange(2999, 8299) for _ in range(6)], category_gap="60%", color="#3498db")
+    .add_yaxis("iphone", [randrange(5499, 10899) for _ in range(6)], category_gap="`40%", color="#9b59b6", gap="34%")
+    .add_yaxis("ipad", [randrange(2999, 8299) for _ in range(6)], category_gap="40%", color="#3498db")
     # 设置标题
     .set_global_opts(title_opts=opts.TitleOpts(title="Apple", pos_left="40 %"),
                      # 将坐标轴标签旋转
@@ -27,7 +27,7 @@ c = (
                      toolbox_opts=opts.ToolboxOpts(
                          is_show=True, pos_left="80%"),
                      datazoom_opts=opts.DataZoomOpts(
-                         type_="slider", pos_top="90%"),
+                         type_="slider"),
                      visualmap_opts=opts.VisualMapOpts(
                          is_show=True, orient="vertical", type_="color", max_=10000))
     # position设置标签的位置默认为top

@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="dc3a20150401437a97a9d147bf606dd9" class="chart-container" style="width:90vw; height:90vh;"></div>
+    <div id="d6e79f0ccdc84244aaaef2fedd9186c6" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_dc3a20150401437a97a9d147bf606dd9 = echarts.init(
-            document.getElementById('dc3a20150401437a97a9d147bf606dd9'), 'white', {renderer: 'canvas'});
-        var option_dc3a20150401437a97a9d147bf606dd9 = {
+        var chart_d6e79f0ccdc84244aaaef2fedd9186c6 = echarts.init(
+            document.getElementById('d6e79f0ccdc84244aaaef2fedd9186c6'), 'white', {renderer: 'canvas'});
+        var option_d6e79f0ccdc84244aaaef2fedd9186c6 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -21,8 +21,6 @@
     "animationEasingUpdate": "cubicOut",
     "animationDelayUpdate": 0,
     "color": [
-        "#3498db",
-        "#9b59b6",
         "#c23531",
         "#2f4554",
         "#61a0a8",
@@ -50,32 +48,59 @@
     ],
     "series": [
         {
-            "type": "bar",
-            "name": "iphone",
-            "legendHoverLink": true,
-            "data": [
-                6716,
-                10399,
-                9079,
-                7628,
-                5893,
-                8736
-            ],
-            "showBackground": false,
-            "barMinHeight": 0,
-            "barCategoryGap": "`40%",
-            "barGap": "34%",
-            "large": false,
-            "largeThreshold": 400,
-            "seriesLayoutBy": "column",
-            "datasetIndex": 0,
+            "type": "line",
+            "name": "\u6700\u9ad8\u6e29\u5ea6",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
             "clip": true,
-            "zlevel": 0,
-            "z": 2,
+            "step": false,
+            "data": [
+                [
+                    "\u5468\u4e00",
+                    37
+                ],
+                [
+                    "\u5468\u4e8c",
+                    38
+                ],
+                [
+                    "\u5468\u4e09",
+                    39
+                ],
+                [
+                    "\u5468\u56db",
+                    35
+                ],
+                [
+                    "\u5468\u4e94",
+                    37
+                ],
+                [
+                    "\u5468\u516d",
+                    36
+                ],
+                [
+                    "\u5468\u65e5",
+                    35
+                ]
+            ],
+            "hoverAnimation": true,
             "label": {
                 "show": true,
                 "position": "top",
                 "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
             },
             "markPoint": {
                 "label": {
@@ -86,12 +111,8 @@
                 },
                 "data": [
                     {
-                        "name": "\u6700\u5c0f\u503c",
+                        "name": "\u6700\u4f4e\u70b9",
                         "type": "min"
-                    },
-                    {
-                        "name": "\u6700\u5927\u503c",
-                        "type": "max"
                     }
                 ]
             },
@@ -105,66 +126,67 @@
                 },
                 "data": [
                     {
-                        "name": "\u6700\u5c0f\u503c",
-                        "type": "min"
-                    },
-                    {
-                        "name": "\u6700\u5927\u503c",
-                        "type": "max"
+                        "yAxis": 25
                     }
                 ]
             },
-            "lineStyle": {
-                "show": null,
-                "width": 10,
-                "opacity": 1,
-                "curveness": 0,
-                "type": "solid"
-            },
-            "splitLine": {
-                "show": true,
-                "lineStyle": {
-                    "show": true,
-                    "width": 1,
-                    "opacity": 1,
-                    "curveness": 0,
-                    "type": "solid"
-                }
-            },
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
+            "zlevel": 0,
+            "z": 0
         },
         {
-            "type": "bar",
-            "name": "ipad",
-            "legendHoverLink": true,
-            "data": [
-                4529,
-                4339,
-                7131,
-                6254,
-                5876,
-                6250
-            ],
-            "showBackground": false,
-            "barMinHeight": 0,
-            "barCategoryGap": "40%",
-            "barGap": "30%",
-            "large": false,
-            "largeThreshold": 400,
-            "seriesLayoutBy": "column",
-            "datasetIndex": 0,
+            "type": "line",
+            "name": "\u6700\u4f4e\u6e29\u5ea6",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
             "clip": true,
-            "zlevel": 0,
-            "z": 2,
+            "step": false,
+            "data": [
+                [
+                    "\u5468\u4e00",
+                    0
+                ],
+                [
+                    "\u5468\u4e8c",
+                    -2
+                ],
+                [
+                    "\u5468\u4e09",
+                    3
+                ],
+                [
+                    "\u5468\u56db",
+                    1
+                ],
+                [
+                    "\u5468\u4e94",
+                    2
+                ],
+                [
+                    "\u5468\u516d",
+                    3
+                ],
+                [
+                    "\u5468\u65e5",
+                    5
+                ]
+            ],
+            "hoverAnimation": true,
             "label": {
                 "show": true,
                 "position": "top",
                 "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
             },
             "markPoint": {
                 "label": {
@@ -175,68 +197,24 @@
                 },
                 "data": [
                     {
-                        "name": "\u6700\u5c0f\u503c",
-                        "type": "min"
-                    },
-                    {
-                        "name": "\u6700\u5927\u503c",
+                        "name": "\u6700\u9ad8\u70b9",
                         "type": "max"
                     }
                 ]
             },
-            "markLine": {
-                "silent": false,
-                "precision": 2,
-                "label": {
-                    "show": true,
-                    "position": "top",
-                    "margin": 8
-                },
-                "data": [
-                    {
-                        "name": "\u6700\u5c0f\u503c",
-                        "type": "min"
-                    },
-                    {
-                        "name": "\u6700\u5927\u503c",
-                        "type": "max"
-                    }
-                ]
-            },
-            "lineStyle": {
-                "show": null,
-                "width": 10,
-                "opacity": 1,
-                "curveness": 0,
-                "type": "solid"
-            },
-            "splitLine": {
-                "show": true,
-                "lineStyle": {
-                    "show": true,
-                    "width": 1,
-                    "opacity": 1,
-                    "curveness": 0,
-                    "type": "solid"
-                }
-            },
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
+            "zlevel": 0,
+            "z": 0
         }
     ],
     "legend": [
         {
             "data": [
-                "iphone",
-                "ipad"
+                "\u6700\u9ad8\u6e29\u5ea6",
+                "\u6700\u4f4e\u6e29\u5ea6"
             ],
             "selected": {
-                "iphone": true,
-                "ipad": true
+                "\u6700\u9ad8\u6e29\u5ea6": true,
+                "\u6700\u4f4e\u6e29\u5ea6": true
             },
             "show": true,
             "padding": 5,
@@ -247,7 +225,7 @@
     ],
     "tooltip": {
         "show": true,
-        "trigger": "item",
+        "trigger": "axis",
         "triggerOn": "mousemove|click",
         "axisPointer": {
             "type": "line"
@@ -264,21 +242,12 @@
     },
     "xAxis": [
         {
-            "name": "\u6708\u4efd",
             "show": true,
             "scale": false,
-            "nameLocation": "center",
-            "nameGap": 60,
-            "nameRotate": 30,
+            "nameLocation": "end",
+            "nameGap": 15,
             "gridIndex": 0,
-            "axisLabel": {
-                "show": true,
-                "position": "top",
-                "rotate": 30,
-                "margin": 8
-            },
             "inverse": false,
-            "position": "bottom",
             "offset": 0,
             "splitNumber": 5,
             "minInterval": 0,
@@ -293,32 +262,24 @@
                 }
             },
             "data": [
-                "\u4e00\u6708",
-                "\u4e8c\u6708",
-                "\u4e09\u6708",
-                "\u56db\u6708",
-                "\u4e94\u6708",
-                "\u516d\u6708"
+                "\u5468\u4e00",
+                "\u5468\u4e8c",
+                "\u5468\u4e09",
+                "\u5468\u56db",
+                "\u5468\u4e94",
+                "\u5468\u516d",
+                "\u5468\u65e5"
             ]
         }
     ],
     "yAxis": [
         {
-            "name": "\u4ef7\u683c",
             "show": true,
             "scale": false,
-            "nameLocation": "middle",
-            "nameGap": 60,
-            "nameRotate": 30,
+            "nameLocation": "end",
+            "nameGap": 15,
             "gridIndex": 0,
-            "axisLabel": {
-                "show": true,
-                "position": "top",
-                "rotate": 30,
-                "margin": 8
-            },
             "inverse": false,
-            "position": "bottom",
             "offset": 0,
             "splitNumber": 5,
             "minInterval": 0,
@@ -336,14 +297,13 @@
     ],
     "title": [
         {
-            "text": "Apple",
-            "left": "40 %",
+            "text": "\u6e29\u5ea6\u8d8b\u52bf",
             "padding": 5,
             "itemGap": 10
         }
     ],
     "toolbox": {
-        "show": true,
+        "show": "True",
         "orient": "horizontal",
         "itemSize": 15,
         "itemGap": 10,
@@ -416,40 +376,9 @@
                 }
             }
         }
-    },
-    "visualMap": {
-        "show": true,
-        "type": "continuous",
-        "min": 0,
-        "max": 10000,
-        "inRange": {
-            "color": [
-                "#50a3ba",
-                "#eac763",
-                "#d94e5d"
-            ]
-        },
-        "calculable": true,
-        "inverse": false,
-        "splitNumber": 5,
-        "orient": "vertical",
-        "showLabel": true,
-        "itemWidth": 20,
-        "itemHeight": 140,
-        "borderWidth": 0
-    },
-    "dataZoom": {
-        "show": true,
-        "type": "slider",
-        "realtime": true,
-        "start": 20,
-        "end": 80,
-        "orient": "horizontal",
-        "zoomLock": false,
-        "filterMode": "filter"
     }
 };
-        chart_dc3a20150401437a97a9d147bf606dd9.setOption(option_dc3a20150401437a97a9d147bf606dd9);
+        chart_d6e79f0ccdc84244aaaef2fedd9186c6.setOption(option_d6e79f0ccdc84244aaaef2fedd9186c6);
     </script>
 </body>
 </html>
