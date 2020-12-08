@@ -62,8 +62,8 @@ Overlap_x = ['1月', '2月', '3月', '41月', '5月', '6月',
 bar = (
     Bar()
     .add_xaxis(Overlap_x)
-    .add_yaxis(series_name="蒸发量", y_axis=Overlap_v1, category_gap="0%", gap="0%")
-    .add_yaxis(series_name="降水量", y_axis=Overlap_v2, category_gap="0%", gap="0%",
+    .add_yaxis(series_name="蒸发量", y_axis=Overlap_v1, gap="0%")
+    .add_yaxis(series_name="降水量", y_axis=Overlap_v2, gap="0%",
                markpoint_opts=opts.MarkPointOpts(data=[opts.MarkPointItem(coord=['6月', 66], value=66)]))
     .extend_axis(yaxis=opts.AxisOpts(axislabel_opts=opts.LabelOpts(formatter='{value}℃')))
     .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
