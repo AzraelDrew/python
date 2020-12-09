@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="3a3aa310089646cdaf592b706ef69af8" class="chart-container" style="width:95vw; height:95vh;"></div>
+    <div id="16cac452d532412493ffd213d1aba78c" class="chart-container" style="width:95vw; height:95vh;"></div>
     <script>
-        var chart_3a3aa310089646cdaf592b706ef69af8 = echarts.init(
-            document.getElementById('3a3aa310089646cdaf592b706ef69af8'), 'white', {renderer: 'canvas'});
-        var option_3a3aa310089646cdaf592b706ef69af8 = {
+        var chart_16cac452d532412493ffd213d1aba78c = echarts.init(
+            document.getElementById('16cac452d532412493ffd213d1aba78c'), 'white', {renderer: 'canvas'});
+        var option_16cac452d532412493ffd213d1aba78c = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -51,6 +51,8 @@
         {
             "type": "bar",
             "name": "stock",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
             "legendHoverLink": true,
             "data": [
                 "77.44539475",
@@ -316,6 +318,49 @@
                 "scale": 2.5,
                 "period": 4
             }
+        },
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "ZDS.FY",
+                    "value": "70"
+                },
+                {
+                    "name": "RPF.JV",
+                    "value": "60"
+                },
+                {
+                    "name": "ACC.UM",
+                    "value": "57"
+                },
+                {
+                    "name": "NCY.LC",
+                    "value": "76"
+                },
+                {
+                    "name": "EIK.JE",
+                    "value": "99"
+                }
+            ],
+            "radius": [
+                "10%",
+                "50%"
+            ],
+            "center": [
+                "50%",
+                "70%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}\n{d}%"
+            },
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
         }
     ],
     "legend": [
@@ -327,6 +372,22 @@
                 "stock": true
             },
             "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        },
+        {
+            "data": [
+                "ZDS.FY",
+                "RPF.JV",
+                "ACC.UM",
+                "NCY.LC",
+                "EIK.JE"
+            ],
+            "selected": {},
+            "show": true,
+            "bottom": "1%",
             "padding": 5,
             "itemGap": 10,
             "itemWidth": 25,
@@ -659,7 +720,11 @@
     "title": [
         {
             "text": "Apple",
-            "left": "45%",
+            "left": "5%",
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
             "padding": 5,
             "itemGap": 10
         }
@@ -680,6 +745,8 @@
         "inverse": false,
         "splitNumber": 5,
         "orient": "vertical",
+        "left": "5%",
+        "bottom": "10%",
         "showLabel": true,
         "itemWidth": 20,
         "itemHeight": 140,
@@ -694,9 +761,32 @@
         "orient": "horizontal",
         "zoomLock": false,
         "filterMode": "filter"
-    }
+    },
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "height": "35%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "bottom": "-5%",
+            "height": "5%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
 };
-        chart_3a3aa310089646cdaf592b706ef69af8.setOption(option_3a3aa310089646cdaf592b706ef69af8);
+        chart_16cac452d532412493ffd213d1aba78c.setOption(option_16cac452d532412493ffd213d1aba78c);
     </script>
 </body>
 </html>
