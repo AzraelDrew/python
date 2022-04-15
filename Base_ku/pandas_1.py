@@ -271,7 +271,8 @@ print('按col2列排序后的DataFrame为：\n', df.sort_values('col2'))
 
 # 代码 3-33
 # 按行降序排列
-print('按列降序排列后的DataFrame为：\n', df.sort_values('a', axis=1, ascending=False))
+print('按列降序排列后的DataFrame为：\n', df.sort_values('a' ,axis=1, ascending=False))
+print("--------------")
 
 
 
